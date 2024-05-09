@@ -18,6 +18,7 @@ classifiers = [
 ]
 dependencies = [
     "Django",
+    "django_extensions",
 ]
 version = "v0.1.0"
 
@@ -25,6 +26,8 @@ version = "v0.1.0"
 dev = [
     "ruff",
     "ipython",
+    "faker",
+    "tqdm",
 ]
 
 [tool.ruff.format]
