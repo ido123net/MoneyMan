@@ -22,3 +22,6 @@ version = "v0.1.0"
 dev = [
     "ruff"
 ]
+
+[tool.ruff.format]
+quote-style = "single"
