@@ -2,6 +2,9 @@
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages]
+find = {}
+
 [project]
 name = "money_man"
 authors = [
@@ -20,7 +23,8 @@ version = "v0.1.0"
 
 [project.optional-dependencies]
 dev = [
-    "ruff"
+    "ruff",
+    "ipython",
 ]
 
 [tool.ruff.format]
