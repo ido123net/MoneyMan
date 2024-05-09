@@ -1,2 +1,4 @@
-venv
 *.egg-info/
+*.pyc
+db.sqlite3
+venv
